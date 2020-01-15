@@ -19,7 +19,7 @@
 
 어쨌든, 나는 [REST API](https://medium.com/@dydrlaks/rest-api-3e424716bab)를 사용하여 외부로 쿼리를 날려서 처리하는 방식으로 해결하였다. ~~아직 될지는 모르지만~~
 
-##4. Structure
+## 4. Structure
 [3번](#3. Solution)에서 말한 것을 정리하면 다음과 같다.
 - 메신저 봇은 알림을 읽어오고, API에 쿼리를 날리고, return 값을 출력
 - 서버 구조
@@ -27,7 +27,7 @@
 	- DB 서버(미정): 쿼리에 대한 reply, feature 등을 저장
 	- DL 서버(~~제일 비싼~~): NLP를 위한 고성능 서버
 
-##5. To-do
+## 5. To-do
 - [ ] 물리 서버 대수
 - [ ] DB 선정
 - [ ] 기능 설계
