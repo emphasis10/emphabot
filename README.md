@@ -15,7 +15,7 @@
 간단하게 `jsoup`에 대해서 알아보면, jsoup은 Java로 구현된 HTML parser인데 DOM 구조를 추적하거나 선택자를 사용하여 데이터를 추출할 수 있는 기능을 제공한다. 자세한 설명은 [링크](https://offbyone.tistory.com/116)를 참고하자. 여튼, jsoup을 사용하면 html에서 깔끔하게 내가 원하는 부분만 가져올 수 있다. ~~POST까지 되면 사기~~
 
 (확인할 부분)
-- [ ] POST 방식을 사용 가능 여부
+- [ ] POST 방식 사용 가능 여부
 
 어쨌든, 나는 [REST API](https://medium.com/@dydrlaks/rest-api-3e424716bab)를 사용하여 외부로 쿼리를 날려서 처리하는 방식으로 해결하였다. ~~아직 될지는 모르지만~~
 
@@ -31,3 +31,8 @@
 - [ ] 물리 서버 대수
 - [ ] DB 선정
 - [ ] 기능 설계
+
+## 6. Research & Reference
+- Rhino Engine 안에서 java 모듈을 불러올 수 있다. `var sdcard = android.os.Environment.getExternalStorageDirectory().getAbsolutePath();` 이런 식으로 path를 가져오는 모듈도 호출이 가능하다.
+- [org.mozilla.javascript](https://www-archive.mozilla.org/rhino/apidocs/org/mozilla/javascript/package-summary.html)
+- [Android에 내장된 Classes](https://developer.android.com/reference/classes)
