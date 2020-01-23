@@ -36,3 +36,4 @@
 - Rhino Engine 안에서 java 모듈을 불러올 수 있다. `var sdcard = android.os.Environment.getExternalStorageDirectory().getAbsolutePath();` 이런 식으로 path를 가져오는 모듈도 호출이 가능하다.
 - [org.mozilla.javascript](https://www-archive.mozilla.org/rhino/apidocs/org/mozilla/javascript/package-summary.html)
 - [Android에 내장된 Classes](https://developer.android.com/reference/classes)
+- 오픈채팅방에 대한 정보를 json으로 return 하는 api가 있다. [링크](https://api.develope.kr/search/room?room=)
